@@ -17,6 +17,7 @@ public class InnerClassTest
 	}
 	public static void main(String[]args)
 	{
-		InnerClassTest.InnerClass  a=new InnerClassTest().new InnerClass();//直接调用内部类
+		InnerClassTest.InnerClass  a=
+				new InnerClassTest().new InnerClass();//直接调用内部类
 	}
 }
