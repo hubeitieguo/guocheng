@@ -46,7 +46,7 @@ public class calsse
 		 public void play()
 			{//普通方法重写,重写在子类
 			 super.play();
-			 System.out.println("我是中华田园");
+			 System.out.println("是中华田园");
 			}
 		}
 		class Prenguins extends Pett
